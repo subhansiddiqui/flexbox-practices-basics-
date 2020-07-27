@@ -1,0 +1,150 @@
+.container {
+  /**border: 7px solid #ffcc5c; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #ff6f69;
+  /* ! this means which axis it will obey to */
+  /* !justify-content: space-evenly; */
+  /* * flex-start flex-end center space-around
+   *   space-between space-evenly */
+  position: fixed;
+  top: 0px;
+  z-index: 40;
+}
+
+/* ! using margin(auto) to align items  
+.container > .logout {
+  margin-left: auto;
+}
+.container > .search {
+  margin-left: auto;
+}
+*/
+.container > div {
+  flex: 1;
+}
+.container > div:hover {
+  cursor: pointer;
+  color: rgb(240, 240, 240);
+}
+.container > div > li {
+  list-style-type: none;
+  font-family: "Effra Light", sans-serif;
+}
+p {
+  color: #313131;
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  flex: 1;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 20px;
+}
+/* ! this is the styling for hero section of the page */
+/**
+div.maini {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 58px;
+  background-color: rgb(255, 255, 255);
+  height: 600px;
+  background-image: url(bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom right;
+}
+h1 {
+  font-size: 45px;
+
+  text-transform: capitalize;
+  line-height: 1.2em;
+}
+span {
+  font-size: 55px;
+  color: #ff5f59;
+}
+input {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  border: 5px solid #016fff;
+  background-color: rgb(255, 255, 255);
+}
+input:hover {
+  background-color: #016fff;
+  color: rgb(252, 252, 252);
+}
+div.inner {
+  background-color: lavender;
+  width: flex;
+  padding: 0px;
+  margin-top: 60px;
+  margin-left: 100px;
+}
+**/
+
+/* *
+header {
+  margin-top: 0px;
+  width: 100%;
+  height: 600px;
+  background-image: url(people-putting-puzzle-pieces-together/bg.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgb(255, 255, 255);
+  flex: 1;
+}
+h1 {
+  font-size: 60px;
+  text-transform: capitalize;
+  width: fit-content;
+  position: absolute;
+  top: 100px;
+  left: 900px;
+  flex: 1;
+}
+input {
+  position: absolute;
+  top: 350px;
+  left: 902px;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  border: 5px solid #016fff;
+  background-color: rgb(255, 255, 255);
+  flex: 1;
+}
+
+input:hover {
+  background-color: #016fff;
+  color: rgb(252, 252, 252);
+}
+div.main {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  display: flex;
+}
+**/
